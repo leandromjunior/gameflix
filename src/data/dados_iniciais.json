@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Battlefield",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Battlefield +",
+        "url": "https://www.youtube.com/results?search_query=battlefield"
+      },
+      "videos": [
+        {
+          "titulo": "BATTLEFIELD 4 - O INÍCIO DA CAMPANHA! (BF4 Final Dublado e Legendado em Português)",
+          "url": "https://www.youtube.com/watch?v=s8UZFUYqaas"
+        },
+        {
+          "titulo": "COMO ESTÁ O BATTLEFIELD 1 ATUALMENTE?",
+          "url": "https://www.youtube.com/watch?v=2mIeJ_6V1XA"
+        },
+        {
+          "titulo": "O FIM do Battlefield V",
+          "url": "https://www.youtube.com/watch?v=B1auzTCydXI"
+        },
+        {
+          "titulo": "Battlefield Returns to Steam – Official Trailer",
+          "url": "https://www.youtube.com/watch?v=_ZqDpDxOO8g"
+        },
+        {
+          "titulo": "Evolution of Battlefield 2002 - 2019",
+          "url": "https://www.youtube.com/watch?v=sViOhPajqm8"
+        },
+        {
+          "titulo": "OS RAYS DO BATTLEFIELD!",
+          "url": "https://www.youtube.com/watch?v=B3eLGFRaS3s"
+        },
+        {
+          "titulo": "Battlefield 6 CONFIRMADO! Tudo o que sabemos até agora",
+          "url": "https://www.youtube.com/watch?v=jYEv1jAv44g"
+        },
+        {
+          "titulo": "Battlefield V: Ultra RTX Realism - 2080 Ti Gameplay (No HUD)",
+          "url": "https://www.youtube.com/watch?v=IQZoeRv1xeg"
+        }        
+      ]
+    },
+    {
+      "titulo": "Call Of Duty",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Call Of Duty +",
+        "url": "https://www.youtube.com/results?search_query=call+of+duty"
+      },
+      "videos": [
+        {
+          "titulo": "CAÇA AO TERROR! - Call of Duty Modern Warfare",
+          "url": "https://www.youtube.com/watch?v=NeLeCAJki3c&t=33s"
+        },
+        {
+          "titulo": "NOVO Call of Duty: Cold War VAZADO pelo Doritos",
+          "url": "https://www.youtube.com/watch?v=cTjaLpT9rj4"
+        },
+        {
+          "titulo": "Os GRAVES PROBLEMAS que o COD Warzone PRECISA ARRUMAR pra ONTEM!",
+          "url": "https://www.youtube.com/watch?v=kmcq6am69wA"
+        },
+        {
+          "titulo": "COMO MELHORAR A MIRA NO WARZONE E NO MULTIPLAYER DO CALL OF DUTY MODERN WARFARE",
+          "url": "https://www.youtube.com/watch?v=EXDBWb05bAg"
+        }, 
+        {
+          "titulo": "Official Call of Duty®: Black Ops III - Multiplayer Reveal Trailer [UK]",
+          "url": "https://www.youtube.com/watch?v=SseJEiaw6gk"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Rocket League",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Rocket League Highlights - 41",
+          "url": "https://www.youtube.com/watch?v=5dbprp7YbE8"
+        },
+        {
+          "titulo": "RECUPERANDO O RANK MAIS ALTO DO ROCKET LEAGUE",
+          "url": "https://www.youtube.com/watch?v=yX-fStRvQAU"
+        },
+        {
+          "titulo": "O BURACO NEGRO DO ROCKET LEAGUE...",
+          "url": "https://www.youtube.com/watch?v=0fyuzdaJzrY"
+        },
+        {
+          "titulo": "Girls Guess Rocket League Ranks",
+          "url": "https://www.youtube.com/watch?v=NIMcgpGciiE"
+        }
+      ]
+    },
+    {
+      "titulo": "Games em Alta",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Trailers de Revelação",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Trailers de Revelação +",
+        "url": "https://www.youtube.com/results?search_query=trailers+de+revela%C3%A7%C3%A3o+games"
+      },
+      "videos": [
+        {
+          "titulo": "Marvel's Spider-Man: Miles Morales - Announcement Trailer | PS5",
+          "url": "https://www.youtube.com/watch?v=gHzuHo80U2M"
+        },
+        {
+          "titulo": "Fable - Official Announce Trailer",
+          "url": "https://www.youtube.com/watch?v=oVkSZXPklQ4"
+        },
+        {
+          "titulo": "Horizon Forbidden West - Announcement Trailer | PS5",
+          "url": "https://www.youtube.com/watch?v=Lq594XmpPBg"
+        },
+        {
+          "titulo": "PS5 Hardware Reveal Trailer",
+          "url": "https://www.youtube.com/watch?v=RkC0l4iekYo&t=7s"
+        },
+        {
+          "titulo": "Xbox Series X - World Premiere - 4K Trailer",
+          "url": "https://www.youtube.com/watch?v=0tUqIHwHDEc"
+        }
+      ]
+    }
+  ]
+}
