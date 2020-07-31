@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria(infosDoEvento) {
     
@@ -30,6 +31,36 @@ function CadastroCategoria(infosDoEvento) {
          );
         }
 
+        useEffect(() => {
+            console.log('alo alo');
+            const url_top = 'http://localhost:8080/categorias';
+            fetch(url_top)
+            .then(async (respostaDoServidor) => {
+                const resposta = await respostaDoServidor.json();
+                setCategorias([
+                    ...resposta,
+                ]);
+            });
+            // setTimeout(() => {
+            //   setCategorias([
+            //     ...categorias,
+            //     {
+            //         "id": 1,
+            //         "nome": "Star wars",
+            //         "descricao": "Galaxia",
+            //         "cor": "#cbd1ff"
+            //     },
+            //     {
+            //         "id": 2,
+            //         "nome": "Star wars 2",
+            //         "descricao": "Galaxia 2",
+            //         "cor": "#cbd1ff"
+            //     },
+            //   ]);
+            // }, 4*1000);
+
+        }, []);
+
     return(
       <PageDefault>
        <h1> Cadastro de Categoria: { values.nome } </h1>
@@ -45,7 +76,7 @@ function CadastroCategoria(infosDoEvento) {
         }}>
 
         <FormField 
-            label = 'Nome da Categoria: '
+            label = 'Nome da Categoria '
             type = 'text'
             name = 'nome'
             value = {values.nome}
@@ -53,47 +84,31 @@ function CadastroCategoria(infosDoEvento) {
         />
 
 <FormField 
-            label = 'Descrição: '
+            label = 'Descrição '
             type = 'textarea'
             name = 'descricao'
             value = {values.descricao}
             onChange = { handleChange }
         />
 
-        {/* <div>
-            <label>
-                Descrição:
-                <textarea type="text"
-                 value={ values.descricao }
-                 name='descricao'
-                 onChange={ handleChange } 
-                 />
-            </label>
-        </div> */}
-
         <FormField 
-            label = 'Cor: '
+            label = 'Cor '
             type = 'color'
             name = 'cor'
             value = {values.cor}
             onChange = { handleChange }
         />
-
-        {/* <div>
-            <label>
-                Cor:
-                <input type="color"
-                 value={ values.cor }
-                 name='cor' 
-                 onChange={ handleChange } 
-                 />
-            </label>
-        </div> */}
             
-            <button>
+            <Button>
                 Cadastrar
-            </button>
+            </Button>
         </form>
+
+        {categorias.length === 0 && (
+            <div>
+                Loading...
+            </div>
+        )}
 
         <ul>
             {categorias.map((categoria, indice) => {
@@ -112,6 +127,8 @@ function CadastroCategoria(infosDoEvento) {
     )}
   export default CadastroCategoria;
 
+  
+  
   /*setValue(infosDoEvento.target.getAttribute('name'),
          infosDoEvento.target.value); 
          
@@ -122,3 +139,26 @@ function CadastroCategoria(infosDoEvento) {
             getAttribute('name'),
             value
             ); */
+
+
+            /* <div>
+            <label>
+                Cor:
+                <input type="color"
+                 value={ values.cor }
+                 name='cor' 
+                 onChange={ handleChange } 
+                 />
+            </label>
+        </div>  
+    
+                é o mesmo que 
+
+                <FormField 
+            label = 'Cor: '
+            type = 'color'
+            name = 'cor'
+            value = {values.cor}
+            onChange = { handleChange }
+        />
+                        */
