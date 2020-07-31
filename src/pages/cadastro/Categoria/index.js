@@ -32,8 +32,9 @@ function CadastroCategoria(infosDoEvento) {
         }
 
         useEffect(() => {
-            console.log('alo alo');
-            const url_top = 'http://localhost:8080/categorias';
+            const url_top = window.location.hostname.includes('localhost')
+            ? 'http://localhost:8080/categorias'
+            : 'https://gamefliix.herokuapp.com/categorias';
             fetch(url_top)
             .then(async (respostaDoServidor) => {
                 const resposta = await respostaDoServidor.json();
