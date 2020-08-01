@@ -8,9 +8,12 @@ export const FooterBase = styled.footer`
   padding-right: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--white);
+  color: var(--primary);
   text-align: center;
   @media (max-width: 800px) {
+    .Logo{
+      max-width: 105px;
+    }
     margin-bottom: 50px;
   }
 `;
