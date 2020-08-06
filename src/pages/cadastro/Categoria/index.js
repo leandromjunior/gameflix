@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
+function useForm(valoresIniciais) {
+    const [values, setValues] = useState(valoresIniciais);
+}
+
 function CadastroCategoria(infosDoEvento) {
     
     const valoresIniciais = {
@@ -12,8 +16,8 @@ function CadastroCategoria(infosDoEvento) {
         cor: '',
     }
     
+    const { handleChange, values, clearForm } = useForm(valoresIniciais);
     const [categorias, setCategorias] = useState([]);
-    const [values, setValues] = useState(valoresIniciais);
 
     function setValue(chave, valor) {
 
@@ -29,6 +33,16 @@ function CadastroCategoria(infosDoEvento) {
          infosDoEvento.target.getAttribute('name'),
          infosDoEvento.target.value
          );
+    }
+
+     function clearForm() {
+         setValues(valoresIniciais);
+     }
+         return {
+            values,
+            handleChange,
+            clearForm,
+         };
         }
 
         useEffect(() => {
@@ -73,7 +87,8 @@ function CadastroCategoria(infosDoEvento) {
                 ...categorias,
                 values
             ]);
-           setValues(valoresIniciais)
+
+           clearForm();
         }}>
 
         <FormField 
