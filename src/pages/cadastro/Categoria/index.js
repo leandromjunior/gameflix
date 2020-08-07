@@ -3,10 +3,7 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
-
-function useForm(valoresIniciais) {
-    const [values, setValues] = useState(valoresIniciais);
-}
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria(infosDoEvento) {
     
@@ -18,32 +15,6 @@ function CadastroCategoria(infosDoEvento) {
     
     const { handleChange, values, clearForm } = useForm(valoresIniciais);
     const [categorias, setCategorias] = useState([]);
-
-    function setValue(chave, valor) {
-
-        // chave: nome, descricao, cor (ou seja, chave é dinâmica)
-        setValues({
-            ...values,
-            [chave]: valor,  // nome: 'valor'
-        })
-    }
-
-    function handleChange(infosDoEvento) { 
-        setValue(
-         infosDoEvento.target.getAttribute('name'),
-         infosDoEvento.target.value
-         );
-    }
-
-     function clearForm() {
-         setValues(valoresIniciais);
-     }
-         return {
-            values,
-            handleChange,
-            clearForm,
-         };
-        }
 
         useEffect(() => {
             const url_top = window.location.hostname.includes('localhost')
