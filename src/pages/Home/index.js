@@ -1,23 +1,25 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import Menu from '../../components/Menu'
-import dadosIniciais from '../../data/dados_iniciais.json';
+//import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
+import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
 
-  useEffect(() => {
-   categoriasRepository.getAllWithVideos();
+  const[dadosIniciais, setDadosIniciais] = useState();
 
-    // fetch(url_ackend_top)
-    // .then(async (respostaDoServidor) => {
-    //     // const resposta = await respostaDoServidor.json();
-    //     // setCategorias([
-    //     //     ...resposta,
-    //     // ]);
-    // });
+  useEffect(() => {
+   categoriasRepository.getAllWithVideos()
+
+    .then((categoriasComVideos) => {
+      console.log(categoriasComVideos);
+
+    })
   });
+  //http://localhost:8080/categorias?_embed=videos
+
   return (
     <div style={{ background: "#141414" }}>
       <Menu />
