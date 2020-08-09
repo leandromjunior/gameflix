@@ -1,30 +1,76 @@
-import React, {useEffect, useState} from 'react';
-import Menu from '../../components/Menu'
+import React, { useEffect, useState } from 'react';
 //import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
 
-  const[dadosIniciais, setDadosIniciais] = useState();
+  const[dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
+    //http://localhost:8080/categorias?_embed=videos
    categoriasRepository.getAllWithVideos()
-
     .then((categoriasComVideos) => {
       console.log(categoriasComVideos);
+      setDadosIniciais(categoriasComVideos);
 
     })
-  });
-  //http://localhost:8080/categorias?_embed=videos
+  }, []);
+
 
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
 
-      <BannerMain
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return(
+            <div key={categoria.id}>
+              <BannerMain
+        videoTitle={dadosIniciais[0].videos[0].titulo}
+        url={dadosIniciais[0].videos[0].url}
+        videoDescription={"Revealing Marvel's Spider-Man: Miles Morales, a new adventure from Insomniac Games coming to PlayStation 5."}
+      />
+
+      <Carousel
+        //ignoreFirstVideo //ignora o video que está no banner da fileira de videos
+        category={dadosIniciais[0]}
+      />
+            </div>
+          );
+        }
+
+        return(
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+
+      {dadosIniciais.length >= 1 && (
+        <>
+          <BannerMain
+        videoTitle={dadosIniciais[1].videos[1].titulo}
+        url={dadosIniciais[1].videos[1].url}
+        videoDescription={"Revealing Marvel's Spider-Man: Miles Morales, a new adventure from Insomniac Games coming to PlayStation 5."}
+      />
+
+      <Carousel
+        ignoreFirstVideo //ignora o video que está no banner da fileira de videos
+        category={dadosIniciais[0]}
+      />
+      
+
+      </>
+    )}
+
+      
+
+      {/* <BannerMain
         videoTitle={dadosIniciais.categorias[5].videos[0].titulo}
         url={dadosIniciais.categorias[5].videos[0].url}
         videoDescription={"Revealing Marvel's Spider-Man: Miles Morales, a new adventure from Insomniac Games coming to PlayStation 5."}
@@ -53,10 +99,9 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[5]}
-      />      
+      />       */}
 
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 
