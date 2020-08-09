@@ -11,7 +11,7 @@ function useForm(valoresIniciais) {
         setValues({
             ...values,
             [chave]: valor,  // nome: 'valor'
-        })
+        });
     }
 
     function handleChange(infosDoEvento) { 
