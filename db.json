@@ -1,180 +1,222 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "The Best Points",
-        "descricao": "ITTF",
-        "cor": "#6BD1FF"
-      },
-      {
-        "id": 2,
-        "titulo": "Tribute",
-        "descricao": "ITTF",
-        "cor": "#00C86F"
-      },
-      {
-        "id": 3,
-        "titulo": "Penholder Players",
-        "descricao": "ITTF",
-        "cor": "#9cd33b"
-      },
-      {
-        "id": 4,
-        "titulo": "Serves Trick's",
-        "descricao": "ITTF",
-        "cor": "orange"
-      }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "Ma Long vs Xu Xin | 2020 ITTF German Open Highlights (Final)",
-        "url": "https://www.youtube.com/watch?v=KpkBaXWrSho"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Best Table Tennis Shots of 2019",
-        "url": "https://www.youtube.com/watch?v=RaN67O77hDY"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Best Table Tennis points Ever (insane skills)",
-        "url": "https://www.youtube.com/watch?v=X_66SqLWwpk"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "DHS Top 10 Table Tennis Points | Best Of 2019",
-        "url": "https://www.youtube.com/watch?v=0ff3dAt41pU"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Top Crazy Table Tennis Rallies at the Olympics | Top Moments",
-        "url": "https://www.youtube.com/watch?v=jkeUQ76uVx4"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Best Table Tennis Shots January 2020 [HD]",
-        "url": "https://www.youtube.com/watch?v=Cwzk_GpDdWY"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "Best Table Tennis Shots February 2020 [HD]",
-        "url": "https://www.youtube.com/watch?v=sjLtgxD5kaI"
-      },
-      {
-        "id": 8,
-        "categoriaId": 1,
-        "titulo": "Top 10 Best Table Tennis Points 2015-2016",
-        "url": "https://www.youtube.com/watch?v=dokC3iGTmSw"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "Tribute to Ma Long - The World Number 1",
-        "url": "https://www.youtube.com/watch?v=bKNFRfYzEOI"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "Zhang Jike - The New King of Table Tennis HD",
-        "url": "https://www.youtube.com/watch?v=muSheKzUB4w"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "Timo Boll - Table Tennis Legend ( Hand Switch Master )",
-        "url": "https://www.youtube.com/watch?v=-8tgvP_l4vg"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Ma Lin - Penhold God (Immortal Skills)",
-        "url": "https://www.youtube.com/watch?v=qwa_QJD4UcU"
-      },
-      {
-        "id": 13,
-        "categoriaId": 2,
-        "titulo": "Koki Niwa - God Of Chop Block (Blocking Magic)",
-        "url": "https://www.youtube.com/watch?v=zdiMfqJpP54"
-      },
-      {
-        "id": 14,
-        "categoriaId": 2,
-        "titulo": "Kenta Matsudaira - Mr. Tomahawk (Blocking Magic)",
-        "url": "https://www.youtube.com/watch?v=h-y1SFEllGg"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "Penhold Techniques for Table Tennis",
-        "url": "https://www.youtube.com/watch?v=iUK7-z7Zv3Y"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "WANG HAO : The reverse penhold backhand king",
-        "url": "https://www.youtube.com/watch?v=-Wp1qgs2r1w"
-      },
-      {
-        "id": 17,
-        "categoriaId": 3,
-        "titulo": "Ryu Seung Min - Pen Hold backhand block",
-        "url": "https://www.youtube.com/watch?v=6nc29_38I4g"
-      },
-      {
-        "id": 18,
-        "categoriaId": 3,
-        "titulo": "Kaii Yoshida - Japanese Penholder (Traditional Penholde)",
-        "url": "https://www.youtube.com/watch?v=gk09TZJ4LS8"
-      },
-      {
-        "id": 19,
-        "categoriaId": 4,
-        "titulo": "Table Tennis Trick Serves",
-        "url": "https://www.youtube.com/watch?v=cKqmAfkUmCs"
-      },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "4 killer serves to destroy your opponents (with Craig Bryant)",
-        "url": "https://www.youtube.com/watch?v=EuXKHxRcRbQ"
-      },
-      {
-        "id": 21,
-        "categoriaId": 4,
-        "titulo": "10 Tips To Become A Better Table Tennis Player Quickly",
-        "url": "https://www.youtube.com/watch?v=yrFQCOcTlFY"
-      },
-      {
-        "id": 22,
-        "categoriaId": 4,
-        "titulo": "Learning Incredible Ghost Serve (Super Backspin) | MLFM Table Tennis Tutorial",
-        "url": "https://www.youtube.com/watch?v=o6g58imTXjM"
-      },
-      {
-        "titulo": "Video padrão",
-        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
-        "categoriaId": 1,
-        "id": 23
-      },
-      {
-        "titulo": "Video padrão",
-        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
-        "categoriaId": 1,
-        "id": 24
-      },
-      {
-        "titulo": "Video padrão",
-        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
-        "categoriaId": 2,
-        "id": 25
-      }
-    ]
-  }
+  "categorias": [
+    {
+      "id": 0,
+      "titulo": "Battlefield",
+      "descricao": "Battlefield+",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 1,
+      "titulo": "Call Of Duty",
+      "descricao": "Call Of Duty+",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 2,
+      "titulo": "Games Em Alta",
+      "descricao": "Games mais esperados",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 3,
+      "titulo": "Rocket League",
+      "descricao": "Rocket League+",
+      "cor": "orange"
+    },
+    {
+      "id": 4,
+      "titulo": "Trailers de Revelação",
+      "descricao": "Tailers recém-lançados",
+      "cor": "red"
+    },
+    {
+      "id": 5,
+      "titulo": "minhas Recomendações",
+      "descricao": "Para Estudar",
+      "cor": "#6b5be2"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 0,
+      "titulo": "BATTLEFIELD 4 - O INÍCIO DA CAMPANHA! (BF4 Final Dublado e Legendado em Português)",
+          "url": "https://www.youtube.com/watch?v=s8UZFUYqaas"
+    },
+    {
+      "id": 2,
+      "categoriaId": 0,
+      "titulo": "COMO ESTÁ O BATTLEFIELD 1 ATUALMENTE?",
+      "url": "https://www.youtube.com/watch?v=2mIeJ_6V1XA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 0,
+      "titulo": "O FIM do Battlefield V",
+      "url": "https://www.youtube.com/watch?v=B1auzTCydXI"
+    },
+    {
+      "id": 4,
+      "categoriaId": 0,
+      "titulo": "Battlefield Returns to Steam – Official Trailer",
+      "url": "https://www.youtube.com/watch?v=_ZqDpDxOO8g"
+    },
+    {
+      "id": 5,
+      "categoriaId": 0,
+      "titulo": "Evolution of Battlefield 2002 - 2019",
+      "url": "https://www.youtube.com/watch?v=sViOhPajqm8"
+    },
+    {
+      "id": 6,
+      "categoriaId": 0,
+      "titulo": "OS RAYS DO BATTLEFIELD!",
+      "url": "https://www.youtube.com/watch?v=B3eLGFRaS3s"
+    },
+    {
+      "id": 7,
+      "categoriaId": 0,
+      "titulo": "Battlefield 6 CONFIRMADO! Tudo o que sabemos até agora",
+      "url": "https://www.youtube.com/watch?v=jYEv1jAv44g"
+    },
+    {
+      "id": 8,
+      "categoriaId": 0,
+      "titulo": "Battlefield V: Ultra RTX Realism - 2080 Ti Gameplay (No HUD)",
+      "url": "https://www.youtube.com/watch?v=IQZoeRv1xeg"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Tribute to Ma Long - The World Number 1",
+      "url": "https://www.youtube.com/watch?v=bKNFRfYzEOI"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "text": "Call Of Duty +",
+      "url": "https://www.youtube.com/results?search_query=call+of+duty"
+    },
+    {
+      "id": 11,
+      "categoriaId": 1,
+      "titulo": "NOVO Call of Duty: Cold War VAZADO pelo Doritos",
+      "url": "https://www.youtube.com/watch?v=cTjaLpT9rj4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 1,
+      "titulo": "Os GRAVES PROBLEMAS que o COD Warzone PRECISA ARRUMAR pra ONTEM!",
+      "url": "https://www.youtube.com/watch?v=kmcq6am69wA"
+    },
+    {
+      "id": 13,
+      "categoriaId": 1,
+      "titulo": "COMO MELHORAR A MIRA NO WARZONE E NO MULTIPLAYER DO CALL OF DUTY MODERN WARFARE",
+      "url": "https://www.youtube.com/watch?v=EXDBWb05bAg"
+    },
+    {
+      "id": 14,
+      "categoriaId": 1,
+      "titulo": "Official Call of Duty®: Black Ops III - Multiplayer Reveal Trailer [UK]",
+      "url": "https://www.youtube.com/watch?v=SseJEiaw6gk"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Assassins Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 17,
+      "categoriaId": 2,
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+    },
+    {
+      "id": 18,
+      "categoriaId": 2,
+      "titulo": "God of War",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Rocket League Highlights - 41",
+      "url": "https://www.youtube.com/watch?v=5dbprp7YbE8"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "RECUPERANDO O RANK MAIS ALTO DO ROCKET LEAGUE",
+      "url": "https://www.youtube.com/watch?v=yX-fStRvQAU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "O BURACO NEGRO DO ROCKET LEAGUE...",
+      "url": "https://www.youtube.com/watch?v=0fyuzdaJzrY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "Girls Guess Rocket League Ranks",
+      "url": "https://www.youtube.com/watch?v=NIMcgpGciiE"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Marvel's Spider-Man: Miles Morales - Announcement Trailer | PS5",
+      "url": "https://www.youtube.com/watch?v=gHzuHo80U2M"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Horizon Forbidden West - Announcement Trailer | PS5",
+      "url": "https://www.youtube.com/watch?v=Lq594XmpPBg"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "PS5 Hardware Reveal Trailer",
+      "url": "https://www.youtube.com/watch?v=RkC0l4iekYo&t=7s"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Xbox Series X - World Premiere - 4K Trailer",
+      "url": "https://www.youtube.com/watch?v=0tUqIHwHDEc"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Melhor forma de aprender Python",
+      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Teste de Turing",
+      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "O que é Data Science?",
+      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Como ingressar no mercado de Data Science?",
+      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+    }
+  ]
+}
