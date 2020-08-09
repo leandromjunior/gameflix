@@ -2,6 +2,17 @@ import config from '../config';
 
 const URL_CATEGORIES = `${config.url_backend_top}/categorias`; 
 
+function getAll() {
+    return fetch(`${URL_CATEGORIES}`)
+      .then(async (respostaDoServidor) => {
+        if (respostaDoServidor.ok) {
+          const resposta = await respostaDoServidor.json();
+          return resposta;
+        }
+        throw new Error('Não foi possível coletar os dados');
+      });
+  }
+
 function getAllWithVideos() {
     console.log(config.url_backend_top);
 
@@ -20,4 +31,5 @@ function getAllWithVideos() {
 
 export default {
     getAllWithVideos,
+    getAll
 };
