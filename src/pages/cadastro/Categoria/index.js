@@ -49,7 +49,7 @@ function CadastroCategoria(infosDoEvento) {
 
     return(
       <PageDefault>
-       <h1> Cadastro de Categoria: { values.nome } </h1>
+       <h1> Cadastro de Categoria: { values.titulo } </h1>
 
         <form onSubmit={ function handleSubmit(infosDoEvento) {
             infosDoEvento.preventDefault();
@@ -65,8 +65,8 @@ function CadastroCategoria(infosDoEvento) {
         <FormField 
             label = 'Nome da Categoria '
             type = 'text'
-            name = 'nome'
-            value = {values.nome}
+            name = 'titulo'
+            value = {values.titulo}
             onChange = { handleChange }
         />
 
@@ -86,7 +86,7 @@ function CadastroCategoria(infosDoEvento) {
             onChange = { handleChange }
         />
             
-            <Button>
+            <Button type="submit">
                 Cadastrar
             </Button>
         </form>
@@ -98,13 +98,11 @@ function CadastroCategoria(infosDoEvento) {
         )}
 
         <ul>
-            {categorias.map((categoria, indice) => {
-                return(
-                    <li key={`${categoria}${indice}`}>
-                        {categoria.nome}
+            {categorias.map((categoria) => (
+                    <li key={`${categoria.titulo}`}>
+                        {categoria.titulo}
                     </li>
-                )
-            })}
+            ))}
         </ul>
 
        <Link to="/">
