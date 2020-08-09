@@ -54,8 +54,8 @@ function Home() {
       {dadosIniciais.length >= 1 && (
         <>
           <BannerMain
-        videoTitle={dadosIniciais[1].videos[1].titulo}
-        url={dadosIniciais[1].videos[1].url}
+        videoTitle={dadosIniciais[0].videos[0].titulo}
+        url={dadosIniciais[0].videos[0].url}
         videoDescription={"Revealing Marvel's Spider-Man: Miles Morales, a new adventure from Insomniac Games coming to PlayStation 5."}
       />
 
