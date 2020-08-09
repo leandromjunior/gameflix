@@ -1,16 +1,180 @@
 {
     "categorias": [
-        {
-            "id": 1,
-            "nome": "Star wars",
-            "descricao": "Galaxia",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Star wars 2",
-            "descricao": "Galaxia 2",
-            "cor": "#cbd1ff"
-        }
+      {
+        "id": 1,
+        "titulo": "The Best Points",
+        "descricao": "ITTF",
+        "cor": "#6BD1FF"
+      },
+      {
+        "id": 2,
+        "titulo": "Tribute",
+        "descricao": "ITTF",
+        "cor": "#00C86F"
+      },
+      {
+        "id": 3,
+        "titulo": "Penholder Players",
+        "descricao": "ITTF",
+        "cor": "#9cd33b"
+      },
+      {
+        "id": 4,
+        "titulo": "Serves Trick's",
+        "descricao": "ITTF",
+        "cor": "orange"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "categoriaId": 1,
+        "titulo": "Ma Long vs Xu Xin | 2020 ITTF German Open Highlights (Final)",
+        "url": "https://www.youtube.com/watch?v=KpkBaXWrSho"
+      },
+      {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "Best Table Tennis Shots of 2019",
+        "url": "https://www.youtube.com/watch?v=RaN67O77hDY"
+      },
+      {
+        "id": 3,
+        "categoriaId": 1,
+        "titulo": "Best Table Tennis points Ever (insane skills)",
+        "url": "https://www.youtube.com/watch?v=X_66SqLWwpk"
+      },
+      {
+        "id": 4,
+        "categoriaId": 1,
+        "titulo": "DHS Top 10 Table Tennis Points | Best Of 2019",
+        "url": "https://www.youtube.com/watch?v=0ff3dAt41pU"
+      },
+      {
+        "id": 5,
+        "categoriaId": 1,
+        "titulo": "Top Crazy Table Tennis Rallies at the Olympics | Top Moments",
+        "url": "https://www.youtube.com/watch?v=jkeUQ76uVx4"
+      },
+      {
+        "id": 6,
+        "categoriaId": 1,
+        "titulo": "Best Table Tennis Shots January 2020 [HD]",
+        "url": "https://www.youtube.com/watch?v=Cwzk_GpDdWY"
+      },
+      {
+        "id": 7,
+        "categoriaId": 1,
+        "titulo": "Best Table Tennis Shots February 2020 [HD]",
+        "url": "https://www.youtube.com/watch?v=sjLtgxD5kaI"
+      },
+      {
+        "id": 8,
+        "categoriaId": 1,
+        "titulo": "Top 10 Best Table Tennis Points 2015-2016",
+        "url": "https://www.youtube.com/watch?v=dokC3iGTmSw"
+      },
+      {
+        "id": 9,
+        "categoriaId": 2,
+        "titulo": "Tribute to Ma Long - The World Number 1",
+        "url": "https://www.youtube.com/watch?v=bKNFRfYzEOI"
+      },
+      {
+        "id": 10,
+        "categoriaId": 2,
+        "titulo": "Zhang Jike - The New King of Table Tennis HD",
+        "url": "https://www.youtube.com/watch?v=muSheKzUB4w"
+      },
+      {
+        "id": 11,
+        "categoriaId": 2,
+        "titulo": "Timo Boll - Table Tennis Legend ( Hand Switch Master )",
+        "url": "https://www.youtube.com/watch?v=-8tgvP_l4vg"
+      },
+      {
+        "id": 12,
+        "categoriaId": 2,
+        "titulo": "Ma Lin - Penhold God (Immortal Skills)",
+        "url": "https://www.youtube.com/watch?v=qwa_QJD4UcU"
+      },
+      {
+        "id": 13,
+        "categoriaId": 2,
+        "titulo": "Koki Niwa - God Of Chop Block (Blocking Magic)",
+        "url": "https://www.youtube.com/watch?v=zdiMfqJpP54"
+      },
+      {
+        "id": 14,
+        "categoriaId": 2,
+        "titulo": "Kenta Matsudaira - Mr. Tomahawk (Blocking Magic)",
+        "url": "https://www.youtube.com/watch?v=h-y1SFEllGg"
+      },
+      {
+        "id": 15,
+        "categoriaId": 3,
+        "titulo": "Penhold Techniques for Table Tennis",
+        "url": "https://www.youtube.com/watch?v=iUK7-z7Zv3Y"
+      },
+      {
+        "id": 16,
+        "categoriaId": 3,
+        "titulo": "WANG HAO : The reverse penhold backhand king",
+        "url": "https://www.youtube.com/watch?v=-Wp1qgs2r1w"
+      },
+      {
+        "id": 17,
+        "categoriaId": 3,
+        "titulo": "Ryu Seung Min - Pen Hold backhand block",
+        "url": "https://www.youtube.com/watch?v=6nc29_38I4g"
+      },
+      {
+        "id": 18,
+        "categoriaId": 3,
+        "titulo": "Kaii Yoshida - Japanese Penholder (Traditional Penholde)",
+        "url": "https://www.youtube.com/watch?v=gk09TZJ4LS8"
+      },
+      {
+        "id": 19,
+        "categoriaId": 4,
+        "titulo": "Table Tennis Trick Serves",
+        "url": "https://www.youtube.com/watch?v=cKqmAfkUmCs"
+      },
+      {
+        "id": 20,
+        "categoriaId": 4,
+        "titulo": "4 killer serves to destroy your opponents (with Craig Bryant)",
+        "url": "https://www.youtube.com/watch?v=EuXKHxRcRbQ"
+      },
+      {
+        "id": 21,
+        "categoriaId": 4,
+        "titulo": "10 Tips To Become A Better Table Tennis Player Quickly",
+        "url": "https://www.youtube.com/watch?v=yrFQCOcTlFY"
+      },
+      {
+        "id": 22,
+        "categoriaId": 4,
+        "titulo": "Learning Incredible Ghost Serve (Super Backspin) | MLFM Table Tennis Tutorial",
+        "url": "https://www.youtube.com/watch?v=o6g58imTXjM"
+      },
+      {
+        "titulo": "Video padrão",
+        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
+        "categoriaId": 1,
+        "id": 23
+      },
+      {
+        "titulo": "Video padrão",
+        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
+        "categoriaId": 1,
+        "id": 24
+      },
+      {
+        "titulo": "Video padrão",
+        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
+        "categoriaId": 2,
+        "id": 25
+      }
     ]
-}
+  }
